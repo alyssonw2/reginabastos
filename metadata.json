@@ -1,0 +1,6 @@
+{
+  "name": "Regina Bastos - Nutricionista",
+  "description": "Website profissional da nutricionista Regina Bastos com identificador de perfil de cliente e agendamentos presencial e online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
