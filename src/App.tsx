@@ -614,7 +614,7 @@ export default function App() {
                 </div>
                 <a
                   id="clinical-wacall-btn"
-                  href="https://wa.me/5521999999999?text=Olá%20Dra.%20Regina,%20gostaria%20de%20tirar%20algumas%20duvidas%20sobre%20as%20consultas!"
+                  href="https://wa.me/5531997408474?text=Olá%20Dra.%20Regina,%20gostaria%20de%20tirar%20algumas%20duvidas%20sobre%20as%20consultas!"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-5 py-3 bg-[#273932] hover:bg-[#1a2c26] text-white rounded-xl text-xs font-bold uppercase tracking-wider shadow hover:shadow-lg transition-transform hover:-translate-y-0.5"
@@ -705,7 +705,7 @@ export default function App() {
       {/* GLOBAL FLOATING WHATSAPP BUTTON */}
       <a
         id="floating-whatsapp-btn"
-        href="https://wa.me/5521999999999?text=Olá%20Dra.%20Regina,%20estava%20navegando%20no%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20consultas!"
+        href="https://wa.me/5531997408474?text=Olá%20Dra.%20Regina,%20estava%20navegando%20no%20seu%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20consultas!"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-40 bg-[#25D366] text-white p-4 rounded-full shadow-2xl flex items-center justify-center cursor-pointer group transition-all duration-300 hover:scale-105 active:scale-95 border border-emerald-500 bg-emerald-600"
