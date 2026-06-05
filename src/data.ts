@@ -9,7 +9,7 @@ export const REVIEWS: Review[] = [
   {
     id: 'rev-1',
     author: 'Mariana Siqueira',
-    text: 'A Dra. Regina Bastos é simplesmente maravilhosa! Estou fazendo acompanhamento online há 3 meses e já eliminei 8kg comendo comida de verdade. Ela adaptou tudo para a minha rotina corrida e sempre tira minhas dúvidas com muita paciência. Mudou minha vida!',
+    text: 'Regina Bastos é simplesmente maravilhosa! Estou fazendo acompanhamento online há 3 meses e já eliminei 8kg comendo comida de verdade. Ela adaptou tudo para a minha rotina corrida e sempre tira minhas dúvidas com muita paciência. Mudou minha vida!',
     rating: 5,
     date: 'Maio de 2026',
     platform: 'Google',
@@ -39,7 +39,7 @@ export const REVIEWS: Review[] = [
   {
     id: 'rev-4',
     author: 'Vanessa Fontes',
-    text: 'Depois de passar por muitos nutricionistas restritivos, encontrar a Dra. Regina foi um alento. Ela trata a relação com a comida de forma muito leve e científica. Minhas taxas de colesterol normalizaram e minha ansiedade por doces sumiu.',
+    text: 'Depois de passar por muitos nutricionistas restritivos, encontrar Regina foi um alento. Ela trata a relação com a comida de forma muito leve e científica. Minhas taxas de colesterol normalizaram e minha ansiedade por doces sumiu.',
     rating: 5,
     date: 'Março de 2026',
     platform: 'Doctoralia',

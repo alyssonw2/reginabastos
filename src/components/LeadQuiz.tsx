@@ -260,7 +260,7 @@ export function LeadQuiz({ isOpen, onClose, onLeadAdded }: LeadQuizProps) {
     const goalTitle = GOAL_OPTIONS.find(o => o.key === goal)?.label || goal;
     const typeTitle = serviceType === 'presencial' ? 'Presencial (Sete Lagoas - MG)' : 'Online (Teleconsulta)';
     
-    const text = `Olá Dra. Regina Bastos! Concluí o meu Diagnóstico de Perfil no seu site.
+    const text = `Olá Regina Bastos! Concluí o meu Diagnóstico de Perfil no seu site.
 
 Meus dados de diagnóstico pré-clínico:
 • Objetivo de Saúde: ${goalTitle}
@@ -292,7 +292,7 @@ Gostaria de agendar o meu atendimento!`;
             <span className="font-serif text-sm font-bold">R</span>
           </div>
           <div>
-            <span className="text-xs uppercase tracking-wider font-semibold block text-brand-sage leading-none font-mono">Dra. Regina Bastos</span>
+            <span className="text-xs uppercase tracking-wider font-semibold block text-brand-sage leading-none font-mono">Regina Bastos</span>
             <span className="text-[10px] text-white/60 block tracking-wide uppercase font-mono">Diagnóstico de Perfil</span>
           </div>
         </div>
@@ -453,7 +453,7 @@ Gostaria de agendar o meu atendimento!`;
                     Qual de nossas modalidades é ideal para você?
                   </h3>
                   <p className="text-xs text-white/60 mb-6">
-                    A Dra. Regina atende presencialmente em Sete Lagoas - MG e online de maneira flexível.
+                    Regina Bastos atende presencialmente em Sete Lagoas - MG e online de maneira flexível.
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
                     {SERVICE_TYPE_OPTIONS.map((opt) => (
@@ -562,7 +562,7 @@ Gostaria de agendar o meu atendimento!`;
               <div className="bg-white/5 border border-white/5 p-3 rounded-xl">
                 <span className="text-brand-sage font-bold block mb-1 flex items-center text-[10px] tracking-wide font-mono">
                   <Sparkles className="w-3.5 h-3.5 text-brand-sage mr-1" />
-                  RECOMENDAÇÃO INICIAL DA DRA. REGINA:
+                  RECOMENDAÇÃO INICIAL DE REGINA BASTOS:
                 </span>
                 <p className="text-white/80 leading-relaxed italic text-[11px]">
                   "{insights.tip}"
@@ -598,7 +598,7 @@ Gostaria de agendar o meu atendimento!`;
 
       {/* Quiz Footer */}
       <footer className="px-6 py-4 border-t border-white/5 bg-[#1d2a25] text-center text-[10px] text-white/40 shrink-0 font-mono">
-        © 2026 Dra. Regina Bastos • CRN-4 2012356 • Sete Lagoas & Online
+        © 2026 Regina Bastos • CRN-9 • Sete Lagoas & Online
       </footer>
 
     </div>

@@ -148,7 +148,7 @@ WhatsApp: ${lead.whatsapp}`;
             <Shield className="w-6 h-6 text-brand-sage" />
             <div>
               <h2 className="font-serif text-xl tracking-wide">Painel de Leads Recebidos</h2>
-              <p className="text-xs text-brand-light/70 font-sans">Simulador de CRM para Dra. Regina Bastos</p>
+              <p className="text-xs text-brand-light/70 font-sans">Simulador de CRM para Regina Bastos</p>
             </div>
           </div>
           <button 
@@ -167,7 +167,7 @@ WhatsApp: ${lead.whatsapp}`;
             <Award className="w-12 h-12 text-brand-sage mb-3 animate-pulse" />
             <h3 className="font-serif text-2xl mb-2">Acesso Restrito</h3>
             <p className="text-sm text-gray-600 mb-6 leading-relaxed">
-              Este é o painel de controle virtual onde a Dra. Regina pode visualizar as pessoas que preencheram o quiz de diagnóstico.
+              Este é o painel de controle virtual onde Regina Bastos pode visualizar as pessoas que preencheram o quiz de diagnóstico.
             </p>
             <form onSubmit={handleLogin} className="w-full space-y-4">
               <div>
@@ -333,7 +333,7 @@ WhatsApp: ${lead.whatsapp}`;
                         <a
                           id={`lead-wa-link-${lead.id}`}
                           href={`https://wa.me/55${lead.whatsapp.replace(/\D/g, '')}?text=${encodeURIComponent(
-                            `Olá ${lead.name}! Sou a Dra. Regina Bastos, acertei os dados do seu quiz nutricional no meu site. Vi que seu objetivo é ${getObjectiveLabel(lead.goal)}, vamos marcar sua consulta?`
+                            `Olá ${lead.name}! Sou Regina Bastos, acertei os dados do seu quiz nutricional no meu site. Vi que seu objetivo é ${getObjectiveLabel(lead.goal)}, vamos marcar sua consulta?`
                           )}`}
                           target="_blank"
                           rel="noopener noreferrer"

@@ -24,7 +24,7 @@ export function ReviewsSection() {
             Histórias Reais, Mudanças Reais
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl text-brand-dark tracking-tight leading-none mb-4">
-            O que dizem os pacientes da Dra. Regina Bastos
+            O que dizem os pacientes de Regina Bastos
           </h2>
           <p className="text-sm sm:text-base text-gray-600 font-sans leading-relaxed">
             Mais do que prescrever planos alimentares, nosso propósito é inspirar um estilo de vida sustentável e trazer paz para a sua mente e corpo. Veja opiniões autênticas coletadas no Google e Doctoralia.
