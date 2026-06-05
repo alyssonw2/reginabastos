@@ -308,7 +308,7 @@ export default function App() {
               <span className="font-mono">@descomplica_nutri17</span>
             </div>
             <div className="text-[10px] text-white/50 tracking-wider">
-              Copacabana & Online • Rio de Janeiro
+              Sete Lagoas & Online • Minas Gerais
             </div>
           </div>
         </div>
@@ -398,7 +398,7 @@ export default function App() {
                 <div className="w-3.5 h-3.5 rounded-full bg-emerald-500 animate-ping-slow"></div>
                 <div className="text-left">
                   <span className="text-[10px] font-mono text-emerald-800 uppercase block font-bold leading-none mb-1">● Atendimento Ativo</span>
-                  <span className="text-xs text-brand-dark font-semibold block leading-tight">Copacabana & Online • @descomplica_nutri17</span>
+                  <span className="text-xs text-brand-dark font-semibold block leading-tight">Sete Lagoas & Online • @descomplica_nutri17</span>
                 </div>
               </div>
             </div>
@@ -553,10 +553,10 @@ export default function App() {
               Atendimento e Localização
             </span>
             <h2 className="font-serif text-3xl sm:text-5xl tracking-tight leading-none">
-              Onde nos Encontrar no Rio de Janeiro
+              Onde nos Encontrar em Sete Lagoas
             </h2>
             <p className="text-xs sm:text-sm text-gray-500 font-sans leading-relaxed">
-              O consultório presencial está perfeitamente localizado na Praia de Copacabana, a poucos metros do metrô. Um espaço acolhedor, climatizado, totalmente equipado para exames de bioimpedância precisos.
+              O consultório presencial está localizado no bairro Boa Vista, em Sete Lagoas - MG. Um espaço acolhedor, climatizado e preparado para um atendimento nutricional individualizado.
             </p>
 
             <div className="space-y-4 pt-4 text-xs font-sans text-gray-600">
@@ -565,8 +565,8 @@ export default function App() {
                   <MapPin className="w-5 h-5 text-[#273932]" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-brand-dark mb-0.5 text-sm">Consultório Copacabana</h4>
-                  <p className="leading-relaxed">Av. Nossa Senhora de Copacabana, 500 - Sala 804<br />Copacabana, Rio de Janeiro - RJ (Próximo à estação Siqueira Campos)</p>
+                  <h4 className="font-bold text-brand-dark mb-0.5 text-sm">Consultório Boa Vista</h4>
+                  <p className="leading-relaxed">R. Alvin Fernandes, 133 - Boa Vista<br />Sete Lagoas - MG, 35700-115<br />GQR7+52 Boa Vista, Sete Lagoas - MG</p>
                 </div>
               </div>
 
@@ -586,7 +586,7 @@ export default function App() {
                 </div>
                 <div>
                   <h4 className="font-bold text-brand-dark mb-0.5 text-sm">Contatos Oficiais</h4>
-                  <p className="leading-relaxed">WhatsApp: (21) 99999-9999 • Email: regina@bastosnutricao.com.br</p>
+                  <p className="leading-relaxed">WhatsApp: (31) 99740-8474 • Telefone: <a href="tel:031997408474" className="underline decoration-brand-sage/40 underline-offset-2">(31) 99740-8474</a><br />Aberto • Fecha 17:00 • Email: regina@bastosnutricao.com.br</p>
                 </div>
               </div>
             </div>
@@ -602,15 +602,15 @@ export default function App() {
               
               <div className="relative z-10">
                 <span className="text-[10px] uppercase font-bold tracking-widest text-[#556948] bg-white/95 px-3 py-1 rounded font-mono inline-block">Consultório Clínico</span>
-                <h4 className="font-serif text-2xl text-brand-dark mt-3 mb-1">Copacabana Wellness Space</h4>
-                <p className="text-xs text-gray-500 max-w-sm">Ambiente calmo com segurança, controle de porta, recepção confortável e equipamento InBody importado para bioimpedância.</p>
+                <h4 className="font-serif text-2xl text-brand-dark mt-3 mb-1">Boa Vista Nutrition Space</h4>
+                <p className="text-xs text-gray-500 max-w-sm">R. Alvin Fernandes, 133 - Boa Vista, Sete Lagoas - MG. Referência: GQR7+52. Atendimento presencial com horário até 17:00.</p>
               </div>
 
               {/* Instant WhatsApp Navigation */}
               <div className="relative z-10 pt-8 flex items-center justify-between flex-wrap gap-4 mt-auto">
                 <div className="text-xs font-mono">
                   <span className="block text-gray-400 uppercase leading-none">HORÁRIOS DE ATENDIMENTO</span>
-                  <span className="font-semibold text-brand-dark">Seg a Sex: 08h às 20h • Sab: 09h às 14h</span>
+                  <span className="font-semibold text-brand-dark">Aberto • Fecha 17:00</span>
                 </div>
                 <a
                   id="clinical-wacall-btn"
@@ -664,10 +664,10 @@ export default function App() {
           <div>
             <h4 className="font-serif text-white tracking-wide mb-4 text-sm font-semibold">Atendimento Presencial</h4>
             <p className="text-xs leading-relaxed text-[#e4e2e3]/70">
-              Avenida Nossa Senhora de Copacabana, 500<br />
-              Sala 804 - Copacabana<br />
-              Rio de Janeiro - RJ<br />
-              CEP: 22020-001
+              R. Alvin Fernandes, 133 - Boa Vista<br />
+              Sete Lagoas - MG<br />
+              CEP: 35700-115<br />
+              GQR7+52 Boa Vista, Sete Lagoas - MG
             </p>
           </div>
 

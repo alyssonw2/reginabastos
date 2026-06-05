@@ -107,7 +107,7 @@ export function AdminLeads({ isOpen, onClose }: AdminLeadsProps) {
       l.gender,
       l.age,
       getObjectiveLabel(l.goal),
-      l.serviceType === 'presencial' ? 'Presencial (Copacabana)' : 'Online (Telemedicina)',
+      l.serviceType === 'presencial' ? 'Presencial (Sete Lagoas - MG)' : 'Online (Telemedicina)',
       l.email,
       l.whatsapp
     ]);
@@ -129,7 +129,7 @@ export function AdminLeads({ isOpen, onClose }: AdminLeadsProps) {
 Gênero: ${lead.gender}
 Idade: ${lead.age} anos
 Objetivo: ${getObjectiveLabel(lead.goal)}
-Canal: ${(lead.serviceType === 'presencial' ? 'Presencial (Copacabana)' : 'Online')}
+Canal: ${(lead.serviceType === 'presencial' ? 'Presencial (Sete Lagoas - MG)' : 'Online')}
 E-mail: ${lead.email}
 WhatsApp: ${lead.whatsapp}`;
     navigator.clipboard.writeText(text);

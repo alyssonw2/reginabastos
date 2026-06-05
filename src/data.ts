@@ -98,7 +98,7 @@ export const SERVICE_TYPE_OPTIONS: ServiceTypeOption[] = [
     key: 'presencial',
     label: 'Atendimento Presencial',
     icon: 'MapPin',
-    description: 'Consultório moderno em Copacabana, Rio de Janeiro (Inclui Bioimpedância).'
+    description: 'Consultório em Boa Vista, Sete Lagoas - MG (Inclui Bioimpedância).'
   },
   {
     key: 'online',
